@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cse438.cse438_assignment2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml
+10
+11    <!-- permission to use the internet -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:8:5-28:19
+15        android:allowBackup="true"
+15-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/a83bef444c9240faa8e56c19819ce9ad/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:14:9-40
+24        <activity android:name="com.example.cse438.cse438_assignment2.PlaylistTracks" />
+24-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:16:9-61
+24-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:16:19-49
+25        <activity android:name="com.example.cse438.cse438_assignment2.TrackToPlaylistActivity" />
+25-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:17:9-70
+25-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:17:19-58
+26        <activity android:name="com.example.cse438.cse438_assignment2.TrackActivity" />
+26-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:18:9-60
+26-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:18:19-48
+27        <activity android:name="com.example.cse438.cse438_assignment2.fragments.NewPlaylistForm" />
+27-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:19:9-72
+27-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:19:19-60
+28        <activity
+28-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:20:9-27:20
+29            android:name="com.example.cse438.cse438_assignment2.MainActivity"
+29-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:20:19-47
+30            android:windowSoftInputMode="adjustPan" >
+30-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:21:13-52
+31            <intent-filter>
+31-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:23:17-69
+32-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:25:17-77
+34-->/Users/danielruffing/Documents/School/SP2020/MobileApp/Homework 3/assignment3/app/src/main/AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[com.squareup.picasso:picasso:2.71828] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/d29cb234378cce5bccb72fe4bede02f3/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+39            android:name="com.squareup.picasso.PicassoProvider"
+39-->[com.squareup.picasso:picasso:2.71828] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/d29cb234378cce5bccb72fe4bede02f3/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+40            android:authorities="com.example.cse438.cse438_assignment2.com.squareup.picasso"
+40-->[com.squareup.picasso:picasso:2.71828] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/d29cb234378cce5bccb72fe4bede02f3/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+41            android:exported="false" />
+41-->[com.squareup.picasso:picasso:2.71828] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/d29cb234378cce5bccb72fe4bede02f3/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+42
+43        <service
+43-->[androidx.room:room-runtime:2.2.0] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/981111dc46a17b6e51f7a51066ee0d20/room-runtime-2.2.0/AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.room.MultiInstanceInvalidationService"
+44-->[androidx.room:room-runtime:2.2.0] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/981111dc46a17b6e51f7a51066ee0d20/room-runtime-2.2.0/AndroidManifest.xml:26:13-74
+45            android:exported="false" />
+45-->[androidx.room:room-runtime:2.2.0] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/981111dc46a17b6e51f7a51066ee0d20/room-runtime-2.2.0/AndroidManifest.xml:27:13-37
+46
+47        <provider
+47-->[androidx.lifecycle:lifecycle-process:2.2.0-beta01] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/1635e8fd0f2c7743140f549cf1c9f5c5/lifecycle-process-2.2.0-beta01/AndroidManifest.xml:25:9-29:43
+48            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.2.0-beta01] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/1635e8fd0f2c7743140f549cf1c9f5c5/lifecycle-process-2.2.0-beta01/AndroidManifest.xml:26:13-79
+49            android:authorities="com.example.cse438.cse438_assignment2.lifecycle-process"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0-beta01] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/1635e8fd0f2c7743140f549cf1c9f5c5/lifecycle-process-2.2.0-beta01/AndroidManifest.xml:27:13-69
+50            android:exported="false"
+50-->[androidx.lifecycle:lifecycle-process:2.2.0-beta01] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/1635e8fd0f2c7743140f549cf1c9f5c5/lifecycle-process-2.2.0-beta01/AndroidManifest.xml:28:13-37
+51            android:multiprocess="true" />
+51-->[androidx.lifecycle:lifecycle-process:2.2.0-beta01] /Users/danielruffing/.gradle/caches/transforms-2/files-2.1/1635e8fd0f2c7743140f549cf1c9f5c5/lifecycle-process-2.2.0-beta01/AndroidManifest.xml:29:13-40
+52    </application>
+53
+54</manifest>
